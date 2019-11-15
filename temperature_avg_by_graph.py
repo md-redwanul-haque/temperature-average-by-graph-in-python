@@ -12,6 +12,9 @@ def create_graph():
 
     plot(month,nyc_temp_2000,month,nyc_temp_2006,month,nyc_temp_2012)
     legend([2000, 2006, 2012])
+   
     savefig('mygraph.png')
+
+
 if __name__== '__main__':
     create_graph()
